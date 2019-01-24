@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99CB3C0221FA0FA400B49767 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99CB3C0121FA0FA400B49767 /* Runner.cpp */; };
+		99CB3C0621FA10CA00B49767 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99CB3C0421FA10CA00B49767 /* Controller.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		99CB3BF721FA0E8400B49767 /* FirstClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstClass; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CB3C0121FA0FA400B49767 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		99CB3C0421FA10CA00B49767 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		99CB3C0521FA10CA00B49767 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		99CB3BF921FA0E8400B49767 /* FirstClass */ = {
 			isa = PBXGroup;
 			children = (
-				99CB3C0121FA0FA400B49767 /* Runner.cpp */,
+				99CB3C0321FA105300B49767 /* Controller */,
 			);
 			path = FirstClass;
+			sourceTree = "<group>";
+		};
+		99CB3C0321FA105300B49767 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99CB3C0121FA0FA400B49767 /* Runner.cpp */,
+				99CB3C0421FA10CA00B49767 /* Controller.cpp */,
+				99CB3C0521FA10CA00B49767 /* Controller.hpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99CB3C0221FA0FA400B49767 /* Runner.cpp in Sources */,
+				99CB3C0621FA10CA00B49767 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
