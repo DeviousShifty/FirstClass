@@ -10,5 +10,17 @@
 #define Controller_hpp
 
 #include <iostream>
+using namespace std;
+
+class Controller
+{
+private:
+    int specialNumber;
+public:
+    Controller();
+    void start();
+
+    
+};
 
 #endif /* Controller_hpp */
